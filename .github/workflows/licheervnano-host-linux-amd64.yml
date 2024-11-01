@@ -78,7 +78,7 @@ jobs:
               popd
 
       - name: 'Upload Artifact'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           retention-days: 30
           name: licheervnano-cvi-mmf-sdk-output-${{ env.BUILD_ID }}
